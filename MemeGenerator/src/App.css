@@ -1,0 +1,29 @@
+:root {
+  --header-color: #3f5efb;
+  --header-text: white;
+}
+
+.header--container {
+  background-color: var(--header-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; 
+  color: var(--header-text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo--container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.logo--container img {
+  width: 75px;
+  border-radius: 10px;
+
+}
